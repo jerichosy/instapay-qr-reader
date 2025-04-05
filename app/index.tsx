@@ -43,7 +43,7 @@ export default function Index() {
 
       {errors.length > 0 && (
         <>
-          <Text style={styles.error}>Failed to read QR.</Text>
+          <Text style={styles.error}>Error when reading QR.</Text>
           <Text style={styles.error}>{errors}</Text>
         </>
       )}
